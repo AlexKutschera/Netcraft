@@ -1,14 +1,23 @@
 package netcraft.items;
 
 import net.minecraft.item.Item;
+import netcraft.Netcraft;
+import netcraft.init.Items;
+import netcraft.util.IHasModel;
 
-public class Cuprit extends Item {
+public class Cuprit extends Item implements IHasModel {
 
     public static final String name = "cuprit";
 
     public Cuprit(){
         setRegistryName(name);
         setUnlocalizedName(name);
+
+        Items.ITEMS.add(this);
     }
 
+    @Override
+    public void registerModels() {
+        Netcraft.proxy.registerItemRenderer(this, 0, "inventory");
+    }
 }

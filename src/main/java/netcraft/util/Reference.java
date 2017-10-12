@@ -1,4 +1,4 @@
-package netcraft;
+package netcraft.util;
 
 import netcraft.proxy.ClientProxy;
 import netcraft.proxy.CommonProxy;

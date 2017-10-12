@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import netcraft.proxy.CommonProxy;
+import netcraft.util.Reference;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.MOD_VERSION)
 public class Netcraft {
