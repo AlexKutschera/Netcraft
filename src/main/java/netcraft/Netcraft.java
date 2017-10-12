@@ -20,16 +20,17 @@ public class Netcraft {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        metadata = event.getModMetadata();
+        proxy.preInit(event);
     }
     
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        System.out.println(metadata.modId);
+        proxy.init(event);
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){
-        System.out.println("POST IST DA");
+        proxy.postInit(event);
+        System.out.println("POST ISSCH DA");
     }
 }

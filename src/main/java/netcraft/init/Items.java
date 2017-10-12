@@ -1,6 +1,8 @@
 package netcraft.init;
 
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import net.minecraftforge.registries.ForgeRegistry;
 import netcraft.items.Cuprit;
 
 import java.util.ArrayList;

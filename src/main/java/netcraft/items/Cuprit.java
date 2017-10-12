@@ -3,7 +3,6 @@ package netcraft.items;
 import net.minecraft.item.Item;
 import netcraft.Netcraft;
 import netcraft.init.Items;
-import netcraft.util.IHasModel;
 
 public class Cuprit extends Item implements IHasModel {
 
