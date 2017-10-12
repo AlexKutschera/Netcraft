@@ -6,7 +6,7 @@ import netcraft.init.Items;
 
 public class NetcraftTab extends CreativeTabs {
 
-    public static final String LABEL = "Netcraft";
+    public static final String LABEL = "netcraft";
 
     public NetcraftTab() {
         super(LABEL);

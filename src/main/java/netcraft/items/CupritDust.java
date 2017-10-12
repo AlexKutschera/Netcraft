@@ -1,6 +1,7 @@
 package netcraft.items;
 
 import net.minecraft.item.Item;
+import netcraft.Netcraft;
 
 public class CupritDust extends Item {
 
@@ -9,6 +10,7 @@ public class CupritDust extends Item {
     public CupritDust(){
         setRegistryName(name);
         setUnlocalizedName(name);
+        setCreativeTab(Netcraft.NETCRAFT_TAB);
     }
 
 }
