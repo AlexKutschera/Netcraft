@@ -1,0 +1,43 @@
+{
+  "parent": "netcraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "netcraft:cuprit"
+    ]
+  },
+  "criteria": {
+    "has_nether_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_star"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "netcraft:cuprit_dust"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "netcraft:cuprit"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_star",
+      "has_dust",
+      "has_the_recipe"
+    ]
+  ]
+}
