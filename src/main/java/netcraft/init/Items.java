@@ -7,6 +7,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.ForgeRegistry;
+import netcraft.items.CircuitBoard;
 import netcraft.items.CopperIngot;
 import netcraft.items.Cuprit;
 import netcraft.items.CupritDust;
@@ -22,6 +23,7 @@ public class Items {
     public static Item cupritDust;
     //Copper
     public static Item copperIngot;
+    public static Item circuitBoard;
 
     public static void init(){
 
@@ -30,6 +32,7 @@ public class Items {
         cupritDust = new CupritDust();
         //Copper
         copperIngot = new CopperIngot();
+        circuitBoard = new CircuitBoard();
     }
 
     public static void register(){
@@ -39,6 +42,7 @@ public class Items {
         registerItem(cupritDust);
         //Copper
         registerItem(copperIngot);
+        registerItem(circuitBoard);
     }
 
     private static void registerItem(Item item){
