@@ -5,7 +5,7 @@ import netcraft.Netcraft;
 
 public class SixthDisk extends Item {
 
-    private static final String name = "512KByte_disk";
+    private static final String name = "sixth_disk";
 
     public SixthDisk(){
         setRegistryName(name);

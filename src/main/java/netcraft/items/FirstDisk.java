@@ -5,7 +5,7 @@ import netcraft.Netcraft;
 
 public class FirstDisk extends Item {
 
-    private static final String name = "1KByte_disk";
+    private static final String name = "first_disk";
 
     public FirstDisk(){
         setRegistryName(name);

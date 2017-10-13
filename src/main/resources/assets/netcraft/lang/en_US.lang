@@ -4,12 +4,12 @@ item.copper_ingot.name=Copper Ingot
 item.circuit_board.name=Circuit Board
 item.silicium.name=Silicium
 
-item.1KByte_disk.name=Festplatte 1KB
-item.4KByte_disk.name=Festplatte 4KB
-item.16KByte_disk.name=Festplatte 16KB
-item.64KByte_disk.name=Festplatte 64KB
-item.256KByte_disk.name=Festplatte 256KB
-item.512KByte_disk.name=Festplatte 512KB
+item.first_disk.name=Festplatte 1KB
+item.second_disk.name=Festplatte 4KB
+item.third_disk.name=Festplatte 16KB
+item.fourth_disk.name=Festplatte 64KB
+item.fifth_disk.name=Festplatte 256KB
+item.sixth_disk.name=Festplatte 512KB
 
 item.ram_32.name=RAM 32byte
 item.ram_64.name=RAM 64byte
