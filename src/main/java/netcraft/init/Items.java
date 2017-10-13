@@ -17,22 +17,27 @@ import java.util.List;
 
 public class Items {
 
+    //Cuprit
     public static Item cuprit;
     public static Item cupritDust;
-
+    //Copper
     public static Item copperIngot;
 
     public static void init(){
+
+        //Cuprit
         cuprit = new Cuprit();
         cupritDust = new CupritDust();
-
+        //Copper
         copperIngot = new CopperIngot();
     }
 
     public static void register(){
+
+        //Cuprit
         registerItem(cuprit);
         registerItem(cupritDust);
-
+        //Copper
         registerItem(copperIngot);
     }
 
