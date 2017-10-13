@@ -7,10 +7,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.ForgeRegistry;
-import netcraft.items.CircuitBoard;
-import netcraft.items.CopperIngot;
-import netcraft.items.Cuprit;
-import netcraft.items.CupritDust;
+import netcraft.items.*;
 import netcraft.util.Reference;
 
 import java.util.ArrayList;
@@ -18,31 +15,34 @@ import java.util.List;
 
 public class Items {
 
-    //Cuprit
+    //Stoffe
     public static Item cuprit;
     public static Item cupritDust;
-    //Copper
     public static Item copperIngot;
+    //Items
     public static Item circuitBoard;
+    public static Item silicium;
 
     public static void init(){
 
-        //Cuprit
+        //Stoffe
         cuprit = new Cuprit();
         cupritDust = new CupritDust();
-        //Copper
         copperIngot = new CopperIngot();
+        //Items
         circuitBoard = new CircuitBoard();
+        silicium = new Silicium();
     }
 
     public static void register(){
 
-        //Cuprit
+        //Stoffe
         registerItem(cuprit);
         registerItem(cupritDust);
-        //Copper
         registerItem(copperIngot);
+        //Items
         registerItem(circuitBoard);
+        registerItem(silicium);
     }
 
     private static void registerItem(Item item){
