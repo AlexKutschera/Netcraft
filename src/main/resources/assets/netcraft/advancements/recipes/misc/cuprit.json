@@ -16,7 +16,7 @@
         ]
       }
     },
-    "has_dust": {
+    "has_cuprit_dust": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -36,7 +36,7 @@
   "requirements": [
     [
       "has_nether_star",
-      "has_dust",
+      "has_cuprit_dust",
       "has_the_recipe"
     ]
   ]
