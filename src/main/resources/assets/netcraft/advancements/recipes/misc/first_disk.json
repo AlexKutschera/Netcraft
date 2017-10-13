@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:gold"
+            "item": "minecraft:gold_ingot"
           }
         ]
       }

@@ -10,7 +10,7 @@
       "item": "minecraft:redstone"
     },
     "G": {
-      "item": "minecraft:gold"
+      "item": "minecraft:gold_ingot"
     },
     "S": {
       "item": "netcraft:silicium"
