@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "SSS",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:gold"
+    },
+    "S": {
+      "item": "netcraft:silicium"
+    }
+  },
+  "result": {
+    "item": "netcraft:first_disk"
+  }
+}
