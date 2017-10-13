@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import netcraft.proxy.CommonProxy;
 import netcraft.tabs.NetcraftTab;
 import netcraft.util.Reference;
+import netcraft.util.handlers.OreDictionaryHandler;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.MOD_VERSION)
 public class Netcraft {
@@ -28,6 +29,7 @@ public class Netcraft {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         proxy.init(event);
+        OreDictionaryHandler.registerOreDictionary();
     }
 
     @EventHandler
