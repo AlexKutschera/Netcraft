@@ -2,6 +2,7 @@ package netcraft.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import netcraft.Netcraft;
 
 public class CupritBlock extends Block {
 
@@ -11,6 +12,7 @@ public class CupritBlock extends Block {
         super(Material.IRON);
         setRegistryName(name);
         setUnlocalizedName(name);
+        setCreativeTab(Netcraft.NETCRAFT_TAB);
     }
 
 }

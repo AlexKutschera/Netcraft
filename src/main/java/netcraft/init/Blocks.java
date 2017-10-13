@@ -1,23 +1,38 @@
 package netcraft.init;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import netcraft.blocks.CupritBlock;
+
+import java.util.Objects;
 
 public class Blocks {
 
+    private static Block cupritBlock;
+
     public static  void init(){
-
+        cupritBlock = new CupritBlock();
     }
+
     public static  void register(){
-
+        registerBlock(cupritBlock);
     }
-    public static  void registerRenders(){
 
-    }
-    public static void registerBlock(Block block) {
+    private static void registerBlock(Block block) {
         ForgeRegistries.BLOCKS.register(block);
-    }
-    public static void registerRender(Block block){
 
+        ItemBlock item = new ItemBlock(block);
+        item.setRegistryName(Objects.requireNonNull(block.getRegistryName()));
+        ForgeRegistries.ITEMS.register(item);
+
+        ModelLoader.setCustomModelResourceLocation(
+                Item.getItemFromBlock(block),
+                0,
+                new ModelResourceLocation(block.getRegistryName(), "inventory"));
     }
 }
