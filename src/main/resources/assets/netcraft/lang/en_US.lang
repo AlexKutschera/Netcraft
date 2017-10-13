@@ -1,6 +1,6 @@
 item.cuprit.name=Cuprit
 item.cuprit_dust.name=Cuprit Dust
-item.copper_ingot=Copper Ingot
+item.copper_ingot.name=Copper Ingot
 itemGroup.netcraft=Netcraft
 advancements.netcraft.root.description=Getting Started
 advancements.netcraft.root.title=NETCRAFT
