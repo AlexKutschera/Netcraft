@@ -7,6 +7,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.ForgeRegistry;
+import netcraft.items.CopperIngot;
 import netcraft.items.Cuprit;
 import netcraft.items.CupritDust;
 import netcraft.util.Reference;
@@ -19,14 +20,20 @@ public class Items {
     public static Item cuprit;
     public static Item cupritDust;
 
+    public static Item copperIngot;
+
     public static void init(){
         cuprit = new Cuprit();
         cupritDust = new CupritDust();
+
+        copperIngot = new CopperIngot();
     }
 
     public static void register(){
         registerItem(cuprit);
         registerItem(cupritDust);
+
+        registerItem(copperIngot);
     }
 
     private static void registerItem(Item item){
