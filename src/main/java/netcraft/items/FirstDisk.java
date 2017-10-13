@@ -5,6 +5,8 @@ import netcraft.Netcraft;
 
 public class FirstDisk extends Item {
 
+    //Todo Platine für Crafting?
+
     private static final String name = "first_disk";
 
     public FirstDisk(){
