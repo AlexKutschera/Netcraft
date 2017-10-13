@@ -4,6 +4,18 @@ item.copper_ingot.name=Copper Ingot
 item.circuit_board.name=Circuit Board
 item.silicium.name=Silicium
 
+Item.1KByte_disk.name= Festplatte 1KB
+Item.4KByte_disk.name= Festplatte 4KB
+Item.16KByte_disk.name= Festplatte 16KB
+Item.64KByte_disk.name= Festplatte 64KB
+Item.256KByte_disk.name= Festplatte 256KB
+Item.512KByte_disk.name= Festplatte 512KB
+
+Item.ram_32.name=RAM 32byte
+Item.ram_64.name=RAM 64byte
+Item.ram_128.name=RAM 128byte
+Item.ram_256.name=RAM 256byte
+
 itemGroup.netcraft=Netcraft
 advancements.netcraft.root.description=Getting Started
 advancements.netcraft.root.title=NETCRAFT
