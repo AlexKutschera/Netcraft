@@ -22,6 +22,13 @@ public class Items {
     //Items
     public static Item circuitBoard;
     public static Item silicium;
+    //Festplatten
+    public static Item firstdisk;
+    public static Item seconddisk;
+    public static Item thirddisk;
+    public static Item fourthdisk;
+    public static Item fifthdisk;
+    public static Item sixthdisk;
 
     public static void init(){
 
@@ -32,6 +39,13 @@ public class Items {
         //Items
         circuitBoard = new CircuitBoard();
         silicium = new Silicium();
+        //Festplatten
+        firstdisk = new FirstDisk();
+        seconddisk = new SecondDisk();
+        thirddisk = new ThirdDisk();
+        fourthdisk = new FourthDisk();
+        fifthdisk = new FifthDisk();
+        sixthdisk = new SixthDisk();
     }
 
     public static void register(){
@@ -43,6 +57,13 @@ public class Items {
         //Items
         registerItem(circuitBoard);
         registerItem(silicium);
+        //Festplatten
+        registerItem(firstdisk);
+        registerItem(seconddisk);
+        registerItem(thirddisk);
+        registerItem(fourthdisk);
+        registerItem(fifthdisk);
+        registerItem(sixthdisk);
     }
 
     private static void registerItem(Item item){
