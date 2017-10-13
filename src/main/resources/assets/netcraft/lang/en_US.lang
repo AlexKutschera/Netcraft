@@ -1,3 +1,5 @@
 item.cuprit.name=Cuprit
 item.cuprit_dust.name=Cuprit Dust
 itemGroup.netcraft=Netcraft
+advancements.netcraft.root.description=Getting Started
+advancements.netcraft.root.title=NETCRAFT
