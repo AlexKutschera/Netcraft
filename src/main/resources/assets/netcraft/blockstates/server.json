@@ -1,7 +1,8 @@
 {
   "variants": {
-    "normal": {
-      "model": "netcraft:server"
-    }
+    "facing=north": { "model": "netcraft:server" },
+    "facing=south": { "model": "netcraft:server", "y": 180 },
+    "facing=west":  { "model": "netcraft:server", "y": 270 },
+    "facing=east":  { "model": "netcraft:server", "y": 90 }
   }
 }

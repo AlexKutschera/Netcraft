@@ -3,6 +3,7 @@
   "textures": {
     "top": "netcraft:blocks/server_side",
     "front": "netcraft:blocks/server_front",
+    "back": "netcraft:blocks/server_back",
     "side": "netcraft:blocks/server_side"
   }
 }
