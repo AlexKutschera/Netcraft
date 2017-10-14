@@ -1,8 +1,11 @@
 item.cuprit.name=Cuprit
 item.cuprit_dust.name=Cuprit Dust
+tile.cuprit_block.name=Cuprit Block
 item.copper_ingot.name=Copper Ingot
+tile.cuprit_ore.name=Cuprit Ore
 item.circuit_board.name=Circuit Board
 item.silicium.name=Silicium
+tile.server_housing.name=Server Housing
 
 item.first_disk.name=Festplatte 1KB
 item.second_disk.name=Festplatte 4KB
@@ -10,6 +13,12 @@ item.third_disk.name=Festplatte 16KB
 item.fourth_disk.name=Festplatte 64KB
 item.fifth_disk.name=Festplatte 256KB
 item.sixth_disk.name=Festplatte 512KB
+
+item.solarmodul_Copper.name=Copper Solarmodule
+item.solarmodul_Iron.name=Iron Solarmodule
+item.solarmodul_Gold.name=Gold Solarmodule
+item.solarmodul_Diamant.name=Diamant Solarmodule
+item.solarmodul_Cuprit.name=Cuprit Solarmodule
 
 item.ram_32.name=RAM 32byte
 item.ram_64.name=RAM 64byte

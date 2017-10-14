@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import netcraft.blocks.CopperOre;
 import netcraft.blocks.CupritBlock;
 import netcraft.blocks.CupritOre;
+import netcraft.blocks.ServerHousing;
 
 import java.util.Objects;
 
@@ -18,17 +19,22 @@ public class Blocks {
     private static Block cupritBlock;
     private static Block cupritOre;
     private static Block copperOre;
+    private static Block serverHousing;
+
 
     public static  void init(){
         cupritBlock = new CupritBlock();
         cupritOre = new CupritOre();
         copperOre = new CopperOre();
+        serverHousing = new ServerHousing();
     }
 
     public static  void register(){
         registerBlock(cupritBlock);
         registerBlock(cupritOre);
         registerBlock(copperOre);
+        registerBlock(serverHousing);
+
     }
 
     private static void registerBlock(Block block) {

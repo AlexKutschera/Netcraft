@@ -29,6 +29,12 @@ public class Items {
     public static Item fourthdisk;
     public static Item fifthdisk;
     public static Item sixthdisk;
+    //Solarmodule
+    public static Item solarmodulcopper;
+    public static Item solarmoduliron;
+    public static Item solarmodulgold;
+    public static Item solarmoduldiamant;
+    public static Item solarmodulcuprit;
 
     public static void init(){
 
@@ -46,6 +52,12 @@ public class Items {
         fourthdisk = new FourthDisk();
         fifthdisk = new FifthDisk();
         sixthdisk = new SixthDisk();
+        //Solarmodule
+        solarmodulcopper = new SolarmodulCopper();
+        solarmoduliron = new SolarmodulIron();
+        solarmodulgold = new SolarmodulGold();
+        solarmoduldiamant = new SolarmodulDiamant();
+        solarmodulcuprit = new SolarmodulCuprit();
     }
 
     public static void register(){
@@ -64,6 +76,12 @@ public class Items {
         registerItem(fourthdisk);
         registerItem(fifthdisk);
         registerItem(sixthdisk);
+        //Solarmodule
+        registerItem(solarmodulcopper);
+        registerItem(solarmoduliron);
+        registerItem(solarmodulgold);
+        registerItem(solarmoduldiamant);
+        registerItem(solarmodulcuprit);
     }
 
     private static void registerItem(Item item){
