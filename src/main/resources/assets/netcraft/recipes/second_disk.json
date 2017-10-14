@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CNC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "netcraft:first_disk"
+    },
+    "N": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "netcraft:second_disk"
+  }
+}
