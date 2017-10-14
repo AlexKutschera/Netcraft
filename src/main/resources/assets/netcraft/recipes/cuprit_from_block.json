@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "netcraft:cuprit_block"
+    }
+  },
+  "result": {
+    "item": "netcraft:cuprit",
+    "count": 9
+  }
+}
