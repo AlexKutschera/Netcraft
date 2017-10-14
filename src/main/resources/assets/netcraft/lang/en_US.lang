@@ -14,6 +14,12 @@ item.fourth_disk.name=Festplatte 64KB
 item.fifth_disk.name=Festplatte 256KB
 item.sixth_disk.name=Festplatte 512KB
 
+item.solarmodul_Copper.name=Copper Solarmodule
+item.solarmodul_Iron.name=Iron Solarmodule
+item.solarmodul_Gold.name=Gold Solarmodule
+item.solarmodul_Diamant.name=Diamant Solarmodule
+item.solarmodul_Cuprit.name=Cuprit Solarmodule
+
 item.ram_32.name=RAM 32byte
 item.ram_64.name=RAM 64byte
 item.ram_128.name=RAM 128byte
