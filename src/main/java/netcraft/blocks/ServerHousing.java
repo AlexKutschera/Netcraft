@@ -4,11 +4,11 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import netcraft.Netcraft;
 
-public class CupritOre extends Block {
+public class ServerHousing extends Block {
 
-    public static final String name = "cuprit_ore";
+    public static final String name = "server_housing";
 
-    public CupritOre() {
+    public ServerHousing() {
         super(Material.IRON);
         setRegistryName(name);
         setUnlocalizedName(name);

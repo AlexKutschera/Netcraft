@@ -8,19 +8,29 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import netcraft.blocks.CupritBlock;
+import netcraft.blocks.CupritOre;
+import netcraft.blocks.ServerHousing;
 
 import java.util.Objects;
 
 public class Blocks {
 
     private static Block cupritBlock;
+    private static Block cupritOre;
+    private static Block serverHousing;
+
 
     public static  void init(){
         cupritBlock = new CupritBlock();
+        cupritOre = new CupritOre();
+        serverHousing = new ServerHousing();
     }
 
     public static  void register(){
         registerBlock(cupritBlock);
+        registerBlock(cupritOre);
+        registerBlock(serverHousing);
+
     }
 
     private static void registerBlock(Block block) {

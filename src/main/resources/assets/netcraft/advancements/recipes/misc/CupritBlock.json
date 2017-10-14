@@ -1,0 +1,32 @@
+{
+  "parent": "netcraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "netcraft:CupritBlock"
+    ]
+  },
+  "criteria": {
+    "has_cuprit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "netcraft:cuprit"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "netcraft:CupritBlock"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cuprit",
+      "has_the_recipe"
+    ]
+  ]
+}

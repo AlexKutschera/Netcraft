@@ -1,8 +1,11 @@
 item.cuprit.name=Cuprit
 item.cuprit_dust.name=Cuprit Dust
+tile.cuprit_block.name=Cuprit Block
 item.copper_ingot.name=Copper Ingot
+tile.cuprit_ore.name=Cuprit Ore
 item.circuit_board.name=Circuit Board
 item.silicium.name=Silicium
+tile.server_housing.name=Server Housing
 
 item.first_disk.name=Festplatte 1KB
 item.second_disk.name=Festplatte 4KB
