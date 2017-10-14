@@ -1,7 +1,6 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "netcraft:blocks/cuprit_ore"
-
-  }
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "blocks/cuprit_ore"
+    }
 }
