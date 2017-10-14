@@ -18,7 +18,7 @@ public class Blocks {
 
     private static Block cupritBlock;
     private static Block cupritOre;
-    private static Block copperOre;
+    public static Block copperOre;
     private static Block serverHousing;
 
 
