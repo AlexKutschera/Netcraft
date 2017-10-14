@@ -7,20 +7,28 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import netcraft.blocks.CopperOre;
 import netcraft.blocks.CupritBlock;
+import netcraft.blocks.CupritOre;
 
 import java.util.Objects;
 
 public class Blocks {
 
     private static Block cupritBlock;
+    private static Block cupritOre;
+    private static Block copperOre;
 
     public static  void init(){
         cupritBlock = new CupritBlock();
+        cupritOre = new CupritOre();
+        copperOre = new CopperOre();
     }
 
     public static  void register(){
         registerBlock(cupritBlock);
+        registerBlock(cupritOre);
+        registerBlock(copperOre);
     }
 
     private static void registerBlock(Block block) {
