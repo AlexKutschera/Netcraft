@@ -6,7 +6,7 @@ import netcraft.Netcraft;
 
 public class ServerHousing extends Block {
 
-    public static final String name = "server_housing";
+    public static final String name = "server";
 
     public ServerHousing() {
         super(Material.IRON);

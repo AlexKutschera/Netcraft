@@ -17,7 +17,7 @@ import java.util.Objects;
 public class Blocks {
 
     private static Block cupritBlock;
-    private static Block cupritOre;
+    public static Block cupritOre;
     public static Block copperOre;
     private static Block serverHousing;
 

@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "netcraft:blocks/server_side",
+    "front": "netcraft:blocks/server_front",
+    "side": "netcraft:blocks/server_side"
+  }
+}

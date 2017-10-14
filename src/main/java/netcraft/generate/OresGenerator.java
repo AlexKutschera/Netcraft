@@ -1,5 +1,6 @@
 package netcraft.generate;
 
+import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -14,9 +15,11 @@ import java.util.Random;
 public class OresGenerator implements IWorldGenerator {
 
     private WorldGenerator copper_ore;
+    private WorldGenerator cuprit_ore;
 
     public OresGenerator(){
         copper_ore = new WorldGenMinable(Blocks.copperOre.getDefaultState(), 9);
+        cuprit_ore = new WorldGenMinable(Blocks.cupritOre.getDefaultState(), 9, BlockMatcher.forBlock(net.minecraft.init.Blocks.END_STONE));//ToDo Change blockCount
     }
 
     @Override
@@ -29,6 +32,7 @@ public class OresGenerator implements IWorldGenerator {
             }
             case 1: {
                 //End
+                runGenerator(cuprit_ore, world, random, chunkX, chunkZ, 50, 0, 255); //Todo Change Chance
                 break;
             }
             case -1: {
