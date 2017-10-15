@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GMG",
+    "MPM",
+    "GMG"
+  ],
+  "key": {
+    "M": {
+      "item": "netcraft:second_disk_module"
+    },
+    "G": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "netcraft:circuit_board"
+    }
+  },
+  "result": {
+    "item": "netcraft:third_disk_module"
+  }
+}

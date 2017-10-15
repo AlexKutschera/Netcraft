@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "MFM",
+    "CPC"
+  ],
+  "key": {
+    "M": {
+      "item": "netcraft:fifth_disk_module"
+    },
+    "C": {
+      "item": "netcraft:cuprit"
+    },
+    "P": {
+      "item": "netcraft:circuit_board"
+    },
+    "F": {
+      "item": "netcraft:cuprit_block"
+    }
+  },
+  "result": {
+    "item": "netcraft:sixth_disk_module"
+  }
+}

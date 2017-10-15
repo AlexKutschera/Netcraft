@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "SPS",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "netcraft:silicium"
+    },
+    "P": {
+      "item": "netcraft:circuit_board"
+    }
+  },
+  "result": {
+    "item": "netcraft:first_disk_module"
+  }
+}

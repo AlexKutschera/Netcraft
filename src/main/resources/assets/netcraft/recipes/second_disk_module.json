@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GMG",
+    "MPM",
+    "GMG"
+  ],
+  "key": {
+    "M": {
+      "item": "netcraft:first_disk_module"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "netcraft:circuit_board"
+    }
+  },
+  "result": {
+    "item": "netcraft:second_disk_module"
+  }
+}

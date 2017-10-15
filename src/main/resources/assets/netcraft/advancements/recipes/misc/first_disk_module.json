@@ -1,0 +1,65 @@
+{
+  "parent": "netcraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "netcraft:first_disk_module"
+    ]
+  },
+  "criteria": {
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      },
+      "has_gold": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:gold_ingot"
+            }
+          ]
+        },
+        "has_board": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "netcraft:circuit_board"
+              }
+            ]
+          },
+          "has_silicium": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "item": "netcraft:silicium"
+                }
+              ]
+            }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "netcraft:first_disk_module"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_redstone",
+            "has_gold",
+            "has_silicium",
+            "has_board",
+            "has_the_recipe"
+          ]
+        ]
+      }
+    }
+  }
+}

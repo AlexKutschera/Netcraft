@@ -1,0 +1,56 @@
+{
+  "parent": "netcraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "netcraft:fifth_disk_module"
+    ]
+  },
+  "criteria": {
+    "has_module": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "netcraft:fourth_disk_module"
+          }
+        ]
+      }
+      },
+      "has_item": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "netcraft:cuprit"
+            }
+          ]
+        }
+        },
+        "has_board": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "item": "netcraft:circuit_board"
+              }
+            ]
+          }
+          },
+          "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+              "recipe": "netcraft:fifth_disk_module"
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_module",
+            "has_item",
+            "has_board",
+            "has_the_recipe"
+          ]
+        ]
+      }
+
+
