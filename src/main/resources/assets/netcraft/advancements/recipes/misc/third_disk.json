@@ -1,0 +1,76 @@
+{
+  "parent": "netcraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "netcraft:third_disk"
+    ]
+  },
+  "criteria": {
+    "has_disk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "netcraft:third_disk_module"
+          }
+        ]
+      }
+    },
+    "has_glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:glass"
+          }
+        ]
+      }
+    },
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    },
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "netcraft:third_disk"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_disk",
+      "has_glass",
+      "has_iron",
+      "has_diamond",
+      "has_redstone",
+      "has_the_recipe"
+    ]
+  ]
+}
