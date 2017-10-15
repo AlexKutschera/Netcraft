@@ -1,15 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " C ",
-    "CNC",
-    " C "
+    "RER",
+    "ESE",
+    "GDG"
   ],
   "key": {
-    "C": {
-      "item": "netcraft:first_disk"
+    "R": {
+      "item": "minecraft:redstone"
     },
-    "N": {
+    "E": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "netcraft:second_disk_module"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "D": {
       "item": "minecraft:diamond"
     }
   },

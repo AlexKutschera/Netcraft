@@ -8,12 +8,19 @@ item.circuit_board.name=Circuit Board
 item.silicium.name=Silicium
 tile.server.name=Server
 
-item.first_disk.name=Festplatte 1KB
-item.second_disk.name=Festplatte 4KB
-item.third_disk.name=Festplatte 16KB
-item.fourth_disk.name=Festplatte 64KB
-item.fifth_disk.name=Festplatte 256KB
-item.sixth_disk.name=Festplatte 512KB
+item.first_disk.name=1KB Hard Drive
+item.second_disk.name=4KB Hard Drive
+item.third_disk.name=16KB Hard Drive
+item.fourth_disk.name=64KB Hard Drive
+item.fifth_disk.name=256KB Hard Drive
+item.sixth_disk.name=512KB Hard Drive
+
+item.first_disk_module.name=1KB Storage-Module
+item.second_disk_module.name=4KB Storage-Module
+item.third_disk_module.name=16KB Storage-Module
+item.fourth_disk_module.name=64KB Storage-Module
+item.fifth_disk_module.name=256KB Storage-Module
+item.sixth_disk_module.name=512KB Storage-Module
 
 item.solarmodul_Copper.name=Copper Solarmodule
 item.solarmodul_Iron.name=Iron Solarmodule

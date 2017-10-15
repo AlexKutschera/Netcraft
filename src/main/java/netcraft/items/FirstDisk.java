@@ -7,6 +7,7 @@ public class FirstDisk extends Item
 {
 
     //Todo Platine für Crafting?
+    //Todo Hab ich geändert. Macht mehr Sinn. Neue Rezepte sind auf OneNote online.
 
     private static final String name = "first_disk";
 

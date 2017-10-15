@@ -13,7 +13,7 @@
       "item": "minecraft:iron_ingot"
     },
     "S": {
-      "item": "netcraft:first_disk_module"
+      "item": "netcraft:fifth_disk_module"
     },
     "G": {
       "item": "minecraft:glass"
@@ -23,6 +23,6 @@
     }
   },
   "result": {
-    "item": "netcraft:first_disk"
+    "item": "netcraft:fifth_disk"
   }
 }
