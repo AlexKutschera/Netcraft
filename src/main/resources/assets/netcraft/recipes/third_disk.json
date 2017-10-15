@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DCD",
+    "CDC",
+    "DCD"
+  ],
+  "key": {
+    "C": {
+      "item": "netcraft:second_disk"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "netcraft:third_disk"
+  }
+}
