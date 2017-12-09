@@ -30,6 +30,10 @@ public class Blocks {
         serverHousing = new ServerHousing();
     }
 
+    /**
+     * registers block in game registry
+     * @param block block to register
+     */
     public static void registerBlock(Block block) {
         ForgeRegistries.BLOCKS.register(block);
 

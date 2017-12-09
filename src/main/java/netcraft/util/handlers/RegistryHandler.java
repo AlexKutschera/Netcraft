@@ -7,16 +7,15 @@ import netcraft.init.Items;
 
 public class RegistryHandler {
 
-    public static void Client(){
+    public static void client(){
 
     }
 
-    public static void Common(){
+    public static void common(){
         Items.init();
         Items.register();
 
         Blocks.init();
-        Blocks.register();
 
         GameRegistry.registerWorldGenerator(new OresGenerator(), 0);
     }
