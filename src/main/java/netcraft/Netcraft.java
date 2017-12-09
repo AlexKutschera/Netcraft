@@ -22,7 +22,6 @@ public class Netcraft {
 
     public static final CreativeTabs NETCRAFT_TAB = new NetcraftTab();
 
-    @SuppressWarnings("WeakerAccess")
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
     public static CommonProxy proxy;
 
