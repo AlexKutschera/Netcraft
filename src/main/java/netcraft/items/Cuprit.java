@@ -12,5 +12,6 @@ public class Cuprit extends Item {
         setRegistryName(name);
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
+        Items.registerItem(this);
     }
 }

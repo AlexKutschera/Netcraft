@@ -13,7 +13,7 @@ public class ClientProxy extends CommonProxy {
 
     public void init(FMLInitializationEvent event){
         super.init(event);
-        RegistryHandler.Client();
+        RegistryHandler.client();
     }
 
     public void postInit(FMLPostInitializationEvent event){

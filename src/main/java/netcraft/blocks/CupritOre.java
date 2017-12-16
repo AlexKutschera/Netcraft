@@ -9,6 +9,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import netcraft.Netcraft;
+import netcraft.init.Blocks;
 import netcraft.init.Items;
 
 import javax.annotation.Nullable;
@@ -23,6 +24,7 @@ public class CupritOre extends Block {
         setRegistryName(name);
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
+        Blocks.registerBlock(this);
     }
 
     @Override

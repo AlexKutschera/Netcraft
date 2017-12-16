@@ -23,21 +23,18 @@ public class Blocks {
 
 
     public static  void init(){
+        // init all the blocks for registration
         cupritBlock = new CupritBlock();
         cupritOre = new CupritOre();
         copperOre = new CopperOre();
         serverHousing = new ServerHousing();
     }
 
-    public static  void register(){
-        registerBlock(cupritBlock);
-        registerBlock(cupritOre);
-        registerBlock(copperOre);
-        registerBlock(serverHousing);
-
-    }
-
-    private static void registerBlock(Block block) {
+    /**
+     * registers block in game registry
+     * @param block block to register
+     */
+    public static void registerBlock(Block block) {
         ForgeRegistries.BLOCKS.register(block);
 
         ItemBlock item = new ItemBlock(block);

@@ -8,7 +8,7 @@ import netcraft.util.handlers.RegistryHandler;
 public class CommonProxy {
 
     public void preInit(FMLPreInitializationEvent event){
-        RegistryHandler.Common();
+        RegistryHandler.common();
     }
 
     public void init(FMLInitializationEvent event){

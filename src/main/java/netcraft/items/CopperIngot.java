@@ -2,6 +2,7 @@ package netcraft.items;
 
 import net.minecraft.item.Item;
 import netcraft.Netcraft;
+import netcraft.init.Items;
 
 public class CopperIngot extends Item {
 
@@ -11,5 +12,6 @@ public class CopperIngot extends Item {
         setRegistryName(name);
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
+        Items.registerItem(this);
     }
 }

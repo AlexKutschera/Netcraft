@@ -19,9 +19,11 @@ public class Items {
     public static Item cuprit;
     public static Item cupritDust;
     public static Item copperIngot;
+
     //Items
     public static Item circuitBoard;
     public static Item silicium;
+
     //Festplatten und Speicher
     public static Item firstdisk;
     public static Item seconddisk;
@@ -50,9 +52,11 @@ public class Items {
         cuprit = new Cuprit();
         cupritDust = new CupritDust();
         copperIngot = new CopperIngot();
+
         //Items
         circuitBoard = new CircuitBoard();
         silicium = new Silicium();
+
         //Festplatten und Speicher
         firstdisk = new FirstDisk();
         seconddisk = new SecondDisk();
@@ -77,11 +81,6 @@ public class Items {
     }
 
     public static void register(){
-
-        //Stoffe
-        registerItem(cuprit);
-        registerItem(cupritDust);
-        registerItem(copperIngot);
         //Items
         registerItem(circuitBoard);
         registerItem(silicium);
@@ -107,7 +106,11 @@ public class Items {
         registerItem(solarmodulcuprit);
     }
 
-    private static void registerItem(Item item){
+    /**
+     * registers item in game registry
+     * @param item item to register
+     */
+    public static void registerItem(Item item){
         ForgeRegistries.ITEMS.register(item);
         ModelLoader.setCustomModelResourceLocation(
                 item, 0 , new ModelResourceLocation(item.getRegistryName(), "inventory")

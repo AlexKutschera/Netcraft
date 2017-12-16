@@ -3,6 +3,7 @@ package netcraft.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import netcraft.Netcraft;
+import netcraft.init.Blocks;
 
 public class CupritBlock extends Block {
 
@@ -13,6 +14,7 @@ public class CupritBlock extends Block {
         setRegistryName(name);
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
+        Blocks.registerBlock(this);
     }
 
 }

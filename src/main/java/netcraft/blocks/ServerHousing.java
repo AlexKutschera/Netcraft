@@ -14,6 +14,7 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import netcraft.Netcraft;
+import netcraft.init.Blocks;
 
 public class ServerHousing extends Block {
 
@@ -26,6 +27,7 @@ public class ServerHousing extends Block {
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
         setDefaultState(blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+        Blocks.registerBlock(this);
     }
 
     @Override
