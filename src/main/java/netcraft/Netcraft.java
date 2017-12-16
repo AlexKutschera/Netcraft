@@ -2,9 +2,9 @@ package netcraft;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.ModMetadata;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -41,6 +41,5 @@ public class Netcraft {
     @EventHandler
     public void postInit(FMLPostInitializationEvent event){
         proxy.postInit(event);
-        System.out.println("POST ISSCH DA");
     }
 }

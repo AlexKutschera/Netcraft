@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "netcraft:server"
+        },
+        "title": {
+            "translate": "netcraft:advancements.first_server.title"
+        },
+        "description": {
+            "translate": "netcraft:advancements.first_server.description"
+        }
+    },
+    "parent": "netcraft:netcraft/root",
+    "criteria": {
+        "server": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "netcraft:server"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -4,10 +4,10 @@
       "item": "netcraft:cuprit"
     },
     "title": {
-      "translate": "advancements.story.root.title"
+      "translate": "netcraft:advancements.root.title"
     },
     "description": {
-      "translate": "advancements.story.root.description"
+      "translate": "netcraft:advancements.root.description"
     },
     "background": "netcraft:textures/gui/advancements/backgrounds/netcraft.png",
     "show_toast": true,
