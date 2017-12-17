@@ -3,9 +3,8 @@ package netcraft.items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import netcraft.Netcraft;
-import netcraft.api.types.Disk;
 
-public class Disk1kb extends Item implements Disk {
+public class Disk1kb extends Item {
 
     //Todo Platine für Crafting?
     //Todo Hab ich geändert. Macht mehr Sinn. Neue Rezepte sind auf OneNote online.
@@ -14,8 +13,7 @@ public class Disk1kb extends Item implements Disk {
     private int maxStackSize = 1;
 
     @Override
-    public Item setMaxStackSize(int maxStackSize)
-    {
+    public Item setMaxStackSize(int maxStackSize) {
         this.maxStackSize = maxStackSize;
         return this;
     }
@@ -26,15 +24,9 @@ public class Disk1kb extends Item implements Disk {
         return this.maxStackSize;
     }
 
-    public Disk1kb()
-    {
+    public Disk1kb() {
         setRegistryName(name);
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
-    }
-
-    @Override
-    public int getStorageCapacity() {
-        return 1024;
     }
 }

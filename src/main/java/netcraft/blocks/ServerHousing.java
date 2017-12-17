@@ -13,10 +13,9 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import netcraft.Netcraft;
-import netcraft.api.types.Server;
 import netcraft.init.Blocks;
 
-public class ServerHousing extends Block implements Server {
+public class ServerHousing extends Block {
 
     public static final String name = "server";
     public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
@@ -63,16 +62,5 @@ public class ServerHousing extends Block implements Server {
     @Override
     protected BlockStateContainer createBlockState() {
         return new BlockStateContainer(this, FACING);
-    }
-
-    // ToDo Gute Idee?
-    @Override
-    public void getRamSlots() {
-
-    }
-
-    @Override
-    public void connectToNetwork() {
-
     }
 }
