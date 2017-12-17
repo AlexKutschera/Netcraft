@@ -70,4 +70,9 @@ public class ServerHousing extends Block implements Server {
     public void getRamSlots() {
 
     }
+
+    @Override
+    public void connectToNetwork() {
+
+    }
 }

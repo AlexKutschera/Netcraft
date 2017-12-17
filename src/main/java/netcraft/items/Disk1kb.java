@@ -11,7 +11,7 @@ public class Disk1kb extends Item implements Disk {
     //Todo Hab ich geändert. Macht mehr Sinn. Neue Rezepte sind auf OneNote online.
 
     private static final String name = "disk1kb";
-    protected int maxStackSize = 1;
+    private int maxStackSize = 1;
 
     @Override
     public Item setMaxStackSize(int maxStackSize)
