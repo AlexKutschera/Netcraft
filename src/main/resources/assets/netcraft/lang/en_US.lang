@@ -36,6 +36,6 @@ item.ram_256.name=RAM 256byte
 itemGroup.netcraft=Netcraft
 
 advancements.root.description=Getting Started
-advancements.root.title=NETCRAFT
+advancements.netcraft.root.title=NETCRAFT
 advancements.first_server.title=First Server
 advancements.first_server.description=First Server

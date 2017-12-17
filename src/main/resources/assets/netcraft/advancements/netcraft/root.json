@@ -4,7 +4,7 @@
       "item": "netcraft:cuprit"
     },
     "title": {
-      "translate": "netcraft:advancements.root.title"
+      "translate": "netcraft:advancements.netcraft.root.title"
     },
     "description": {
       "translate": "netcraft:advancements.root.description"
