@@ -8,7 +8,7 @@ item.circuit_board.name=Circuit Board
 item.silicium.name=Silicium
 tile.server.name=Server
 
-item.first_disk.name=1KB Hard Drive
+item.disk1kb.name=1KB Hard Drive
 item.second_disk.name=4KB Hard Drive
 item.third_disk.name=16KB Hard Drive
 item.fourth_disk.name=64KB Hard Drive

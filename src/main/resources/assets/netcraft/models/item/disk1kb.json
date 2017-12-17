@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "netcraft:items/first_disk"
+    "layer0": "netcraft:items/disk1kb"
   }
 }
