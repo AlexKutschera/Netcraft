@@ -19,7 +19,7 @@ item.first_disk_module.name=1KB Storage-Module
 item.second_disk_module.name=4KB Storage-Module
 item.third_disk_module.name=16KB Storage-Module
 item.fourth_disk_module.name=64KB Storage-Module
-item.fifth_disk_module.name=256KB Storage-Module
+item.fifth_disk_modulem.name=256KB Storage-Module
 item.sixth_disk_module.name=512KB Storage-Module
 
 item.solarmodul_Copper.name=Copper Solarmodule
