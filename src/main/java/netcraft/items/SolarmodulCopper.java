@@ -1,6 +1,7 @@
 package netcraft.items;
 
 import net.minecraft.item.Item;
+import net.minecraftforge.energy.IEnergyStorage;
 import netcraft.Netcraft;
 
 public class SolarmodulCopper extends Item {
@@ -12,4 +13,5 @@ public class SolarmodulCopper extends Item {
         setUnlocalizedName(name);
         setCreativeTab(Netcraft.NETCRAFT_TAB);
     }
+
 }

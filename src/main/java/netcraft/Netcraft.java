@@ -13,7 +13,9 @@ import netcraft.init.Blocks;
 import netcraft.init.Items;
 import netcraft.proxy.CommonProxy;
 import netcraft.tabs.NetcraftTab;
+import netcraft.util.FurnaceRecipe;
 import netcraft.util.Reference;
+import netcraft.util.handlers.FurnaceRecipesHandler;
 import netcraft.util.handlers.OreDictionaryHandler;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.MOD_VERSION)
@@ -22,7 +24,7 @@ public class Netcraft {
     public static final CreativeTabs NETCRAFT_TAB = new NetcraftTab();
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
-    public static CommonProxy proxy;
+    private static CommonProxy proxy;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
@@ -33,7 +35,8 @@ public class Netcraft {
     public void init(FMLInitializationEvent event) {
         proxy.init(event);
         OreDictionaryHandler.registerOreDictionary();
-        GameRegistry.addSmelting(Blocks.copperOre, new ItemStack(Items.copperIngot), 0);
+        FurnaceRecipesHandler.init();
+        FurnaceRecipesHandler.register();
     }
 
     @EventHandler
