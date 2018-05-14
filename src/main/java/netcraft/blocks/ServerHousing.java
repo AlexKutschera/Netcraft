@@ -63,4 +63,5 @@ public class ServerHousing extends Block {
     protected BlockStateContainer createBlockState() {
         return new BlockStateContainer(this, FACING);
     }
+
 }
