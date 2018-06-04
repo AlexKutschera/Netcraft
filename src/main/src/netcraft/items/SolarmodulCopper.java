@@ -1,7 +1,6 @@
 package netcraft.items;
 
 import net.minecraft.item.Item;
-import net.minecraftforge.energy.IEnergyStorage;
 import netcraft.Netcraft;
 
 public class SolarmodulCopper extends Item {

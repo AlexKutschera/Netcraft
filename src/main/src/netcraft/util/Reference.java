@@ -1,8 +1,5 @@
 package netcraft.util;
 
-import netcraft.proxy.ClientProxy;
-import netcraft.proxy.CommonProxy;
-
 public class Reference {
 
     public static final String MOD_ID = "netcraft";

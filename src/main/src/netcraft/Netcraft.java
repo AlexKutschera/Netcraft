@@ -1,19 +1,14 @@
 package netcraft;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import netcraft.init.Blocks;
-import netcraft.init.Items;
 import netcraft.proxy.CommonProxy;
 import netcraft.tabs.NetcraftTab;
-import netcraft.util.FurnaceRecipe;
 import netcraft.util.Reference;
 import netcraft.util.handlers.FurnaceRecipesHandler;
 import netcraft.util.handlers.OreDictionaryHandler;
